@@ -72,6 +72,10 @@ h5 {
   margin-right: 15px;
 }
 
+li a{
+  color: #000;
+}
+
 /* Global styles
 ================================================== */
 html {
@@ -97,6 +101,7 @@ body {
 .logo{
   width:217px; 
   height:50px;
+  margin-top: -6%;
 }
 
 .preload {
@@ -678,8 +683,11 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: rgba(255, 255, 255, 0.3);
+  background: #888A8F;
+  background: #ADADB1;
+  /* background: rgba(255, 255, 255, 0.3); */
   /* background: #23282d; */
+  z-index: -1;
 }
 
 .header-one .navbar-collapse {
@@ -906,6 +914,10 @@ ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
   color: #ffb600;
   position: relative;
+}
+
+ul.navbar-nav > li > a {
+  color: red !important;
 }
 
 ul.navbar-nav > li {
