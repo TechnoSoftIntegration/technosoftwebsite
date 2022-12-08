@@ -3580,7 +3580,6 @@ label {
   font-weight: 700;
   font-size: 52px;
   line-height: 61px;
-
   color: #292667;
 }
 
@@ -3606,6 +3605,26 @@ label {
   left: 1007px;
   top: 1083px;
 }
+
+@media only screen and (max-width: 600px) {
+  .into-sub-title {
+    font-size: 32px;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .into-sub-details {
+    font-size: 18px;
+  }
+
+  .ts-intro-image {
+    /* position: absolute; */
+    width: 250px;
+    height: 355px;
+  }
+}
+
+
 
 .our-featured-service img {
   width: 200px;
@@ -3711,16 +3730,6 @@ label {
   text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
-  .column-title {
-    font-size: 35px;
-  }
-
-  .column-description {
-    font-size: 16px;
-  }
-}
-
 .service-list{
   font-family: 'Poppins';
   font-style: normal;
@@ -3729,6 +3738,22 @@ label {
   color: #000000;
   line-height: 45px;
 }
+
+@media only screen and (max-width: 600px) {
+  .column-title {
+    font-size: 35px;
+  }
+
+  .column-description {
+    font-size: 16px;
+  }
+
+  .service-list {
+    font-size: 16px;
+  }
+}
+
+
 
 .description-container-details{
   margin-top: -5%;
