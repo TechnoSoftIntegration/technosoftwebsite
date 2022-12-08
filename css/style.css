@@ -3631,6 +3631,7 @@ label {
 
 .contact {
   margin-top: 60px;
+  /* margin-bottom: 60px; */
   background: var(--background-color);
 }
 
@@ -3646,9 +3647,8 @@ label {
 
 .contact-details p {
   font-weight: 400;
-  font-size: 24.75px;
+  font-size: 24px;
   line-height: 130%;
-  /* or 32px */
   display: flex;
   align-items: center;
   color: #FFFFFF;
@@ -3665,8 +3665,28 @@ label {
 }
 
 .schedule-submit-btn {
-  border-radius: 56.25px;
-  width: 388px;
+  margin-top: 20px;
+  width: 284px;
   height: 58px;
+  left: 317px;
+  top: 3597px;
+  border: 5px solid #5caaff;
+  border-radius: 56px;
   color: #fff;
+}
+
+.schedule-submit-btn:hover {
+  background: linear-gradient(273.36deg, #003166 0%, #007AFF 100%);
+  color: #fff;
+  border: 0;
+}
+
+.contact-form input {
+  border-radius: 12px;
+  background: #fff;
+}
+
+.contact-form textarea {
+  border-radius: 12px;
+  background: #fff;
 }
