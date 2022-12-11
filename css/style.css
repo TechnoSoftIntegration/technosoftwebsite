@@ -14,6 +14,7 @@ Description: Constra - Construction Html5 Template
 ================================================== */
 :root {
   --background-color: linear-gradient(180deg, #802571 0%, #292667 100%);
+  --s-color: #A2A4A5;
 }
 
 body {
@@ -221,7 +222,8 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 46, 91, 0.8);
+  /* background-color: rgba(0, 46, 91, 0.8); */
+  /* background-color: var(--background-color); */
   z-index: 0;
   position: absolute;
   content: '';
@@ -236,7 +238,8 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  /* background-color: var(--background-color); */
   z-index: 0;
   position: absolute;
   content: '';
@@ -535,10 +538,12 @@ a[href^=tel] {
 
 .btn-primary {
   background: #ffb600;
+  /* background: var(--background-color); */
 }
 
 .btn-dark {
-  background: #23282d;
+  background: #14133b;
+  /* background: #23282d; */
 }
 
 .btn-primary:hover,
@@ -685,7 +690,9 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #23282d;
+  /* background: #23282d; */
+  background: #A2A4A5;
+  z-index: -1;
 }
 
 .header-one .navbar-collapse {
@@ -1426,6 +1433,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
+  /* color: #ffb600; */
   color: #ffb600;
 }
 
@@ -1563,7 +1571,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #ffb600;
+  background: var(--background-color);
+  /* background: #ffb600; */
   padding: 30px;
 }
 
@@ -1763,7 +1772,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 /* Service box bg */
 .ts-service-box-bg {
-  background: #252525;
+  /* background: #252525; */
+  background: #A2A4A5;
   color: #fff;
   padding: 30px;
 }
@@ -2504,9 +2514,10 @@ img.testimonial-thumb {
 ================================================== */
 /*- Footer common */
 .footer {
-  /* background: var(--background-color); */
-  background-color: #000000;
-  color: #999;
+  background: var(--background-color);
+  /* background-color: #fff; */
+  color: #fff;
+  /* color: #999; */
 }
 
 .footer-main {
@@ -2574,7 +2585,7 @@ img.testimonial-thumb {
 
 .footer-widget ul.list-arrow li a,
 .footer-widget ul.list-arrow li:before {
-  color: #747474;
+  color: #fff;
 }
 
 .footer-widget ul.list-arrow li:hover a,
@@ -3642,17 +3653,21 @@ label {
 
 .card-style {
   height: 100%;
+  /* background: rgba(50, 50, 93, 0.25); */
+  background: none;
 }
 
 .card-style .card-body {
   background: #D9D9D9;
+  /* background: var(--s-color); */
   border-radius: 18px;
   margin-top: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
 }
 
 .contact {
   margin-top: 60px;
-  /* margin-bottom: 60px; */
   background: var(--background-color);
 }
 
@@ -3683,6 +3698,7 @@ label {
   background: linear-gradient(273.36deg, #003166 0%, #007AFF 100%);
   border-radius: 56px;
   color: #FFFFFF;
+  margin-top: 80px;
 }
 
 .schedule-submit-btn {
@@ -3691,7 +3707,7 @@ label {
   height: 58px;
   left: 317px;
   top: 3597px;
-  border: 5px solid #5caaff;
+  border: 2px solid #5caaff;
   border-radius: 56px;
   color: #fff;
 }
