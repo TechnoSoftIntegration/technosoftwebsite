@@ -3763,6 +3763,10 @@ label {
   .description-container-details{
     margin-top: -25%;
   }
+
+  .mobile-m-b{
+    margin-bottom: 20px;
+  }
 }
 
 
