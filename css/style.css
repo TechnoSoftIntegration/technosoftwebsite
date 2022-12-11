@@ -3764,3 +3764,12 @@ label {
     margin-top: -25%;
   }
 }
+
+
+.our-featured-service:hover {
+  /* background: #FFFFFF; */
+  background: #D9D9D9;
+  padding: 5px;
+  box-shadow: 0px 0px 40px rgba(14, 14, 14, 0.15);
+  border-radius: 18px;
+}
