@@ -16,6 +16,7 @@ Description: Constra - Construction Html5 Template
   --background-color: linear-gradient(180deg, #802571 0%, #292667 100%);
   --bgc:#292667;
   --s-color: #A2A4A5;
+  --orange: #ffb600;
 }
 
 body {
@@ -1784,56 +1785,6 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   color: #fff;
 }
 
-/* Service box 
-
-.ts-service-box .ts-service-icon i {
-  font-size: 24px;
-  float: left;
-  color: #fff;
-  background: $color-primary;
-  border-radius: 100%;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-}
-
-.ts-service-box .ts-service-box-content {
-  margin-left: 80px;
-  margin-bottom: 30px;
-}
-
-.tab-content .ts-service-box .ts-service-box-content {
-  margin-left: 90px;
-}
-
-.ts-service-box .ts-service-box-content h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.ts-service-box .ts-service-box-info {
-  margin-left: 90px;
-  margin-bottom: 40px;
-}
-
-.service-box-title {
-  font-size: 18px;
-  margin: 0 0 10px;
-}
-
-.service-box-title a {
-  color: #333;
-}
-
-.service-box-title a:hover {
-  color: $color-primary;
-}
-
-.service-center-img {
-  padding: 0 20px;
-}
-*/
 /* Icon squre */
 .ts-service-icon.icon-round i {
   font-size: 24px;
@@ -3696,7 +3647,8 @@ label {
   height: 58px;
   left: 317px;
   top: 3597px;
-  background: linear-gradient(273.36deg, #003166 0%, #007AFF 100%);
+  background: linear-gradient(275deg, #003166 0%, #007AFF 100%);
+  border: none;
   border-radius: 56px;
   color: #FFFFFF;
   margin-top: 80px;
@@ -3788,18 +3740,15 @@ label {
 
 
 .our-featured-service:hover {
-  /* background: #FFFFFF; */
-  /* background: #D9D9D9;
-  padding: 5px;
-  box-shadow: 0px 0px 40px rgba(14, 14, 14, 0.15);
-  border-radius: 18px; */
 
   background: var(--s-color);
-  /* background: #cdcccc; */
   box-shadow: 0px 0px 40px rgba(14, 14, 14, 0.15);
-  /* padding: 16px 32px; */
   text-align: center;
   font-size: 16px;
   opacity: 0.6;
   transition: 0.3s;
+}
+
+.footer a:hover{
+  color: var(--orange);
 }
